@@ -40,9 +40,10 @@ public class Calc {
         this.n3 = n3;
     }
 
-    public double calcAverage(double n1, double n2, double n3){
+    public double calcAverage(double n1, double n2, double n3) {
 
         double average = ((n1 * P1) + (n2 * P2) + (n3 * P3)) / (P1 + P2 + P3);
         return average;
+
     }
 }

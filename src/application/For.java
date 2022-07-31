@@ -28,10 +28,8 @@ public class For {
 
             list.add(calc.calcAverage(n1, n2, n3));
         }
-        for(Double num : list){
+        for (Double num : list) {
             System.out.println(String.format("%.1f", num));
         }
-
-
     }
 }
